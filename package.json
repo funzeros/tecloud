@@ -12,7 +12,10 @@
   },
   "dependencies": {
     "@vueuse/core": "^9.0.0",
+    "echarts": "^5.3.3",
+    "echarts-wordcloud": "2.0.0",
     "vue": "^3.2.37",
+    "vue-echarts": "^6.2.3",
     "vue-router": "^4.1.2"
   },
   "devDependencies": {

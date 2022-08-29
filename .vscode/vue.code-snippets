@@ -1,0 +1,21 @@
+{
+  "Component": {
+    "scope": "vue",
+    "prefix": "component",
+    "body": [
+      "<script setup lang=\"ts\"></script>",
+      "<template>",
+      "  <div>$2</div>",
+      "</template>"
+    ],
+    "description": "组件"
+  },
+  "Script": {
+    "scope": "vue",
+    "prefix": "script",
+    "body": [
+      "<script setup lang=\"ts\">\n$2\n</script>\n",
+    ],
+    "description": "script"
+  },
+}

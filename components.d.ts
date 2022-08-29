@@ -7,6 +7,10 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    'A.bC.d_2.~asd': typeof import('./src/components/a.b-c.d_2.~asd.vue')['default']
+    AffixButton: typeof import('./src/components/AffixButton.vue')['default']
+    Charts: typeof import('./src/components/Charts.vue')['default']
+    'Charts.composition': typeof import('./src/components/Charts.composition.vue')['default']
     Counter: typeof import('./src/components/Counter.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

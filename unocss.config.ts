@@ -28,6 +28,17 @@ export default defineConfig({
       },
     }),
   ],
+  rules: [
+    ['backdrop-blur-xl', {
+      '--un-backdrop-blur': 'blur(20px)',
+    }],
+    ['font-dy', {
+      'font-family': '"dy","DM Mono",ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace',
+    }],
+    ['white-space-nowrap', {
+      'white-space': 'nowrap',
+    }],
+  ],
   // transformers: [
   //   transformerDirectives(),
   //   transformerVariantGroup(),

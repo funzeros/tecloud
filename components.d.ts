@@ -13,6 +13,7 @@ declare module '@vue/runtime-core' {
     'Charts.composition': typeof import('./src/components/Charts.composition.vue')['default']
     Counter: typeof import('./src/components/Counter.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    ParticleWords: typeof import('./src/components/ParticleWords.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

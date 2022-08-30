@@ -9,3 +9,8 @@ body,
 html.dark {
   background: #121212;
 }
+
+@font-face {
+  font-family: "dy";
+  src: url("./fonts/douyuFont-2.otf");
+}

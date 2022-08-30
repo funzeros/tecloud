@@ -17,7 +17,7 @@ use([
   LegendComponent,
 ])
 
-provide(THEME_KEY, 'dark')
+provide(THEME_KEY, 'light')
 </script>
 
 <template>
